@@ -4,6 +4,7 @@ export default function IndexPage() {
       <p>Hello World!</p>
       <code>var</code>
       <p>I am a child</p>
+      <code>Testing git update</code>
     </>
   );
 }
