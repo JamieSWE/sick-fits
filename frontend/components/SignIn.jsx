@@ -37,7 +37,7 @@ export default function SignIn() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log(inputs);
+
     // Send email and password to GraphQL API
     const res = await signin();
     console.log(res);
